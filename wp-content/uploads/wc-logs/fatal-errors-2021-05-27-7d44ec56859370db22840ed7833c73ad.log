@@ -1,0 +1,9 @@
+2021-05-27T09:09:58+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /opt/lampp/htdocs/wordpress-5.7.2/wordpress/wp-content/themes/spawp/inc/customizer/customizer-notify/spawp-customizer-notify.php:203
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress-5.7.2/wordpress/wp-includes/class-wp-hook.php(292): Spawp_Customizer_Notify->spawp_customizer_notify_dismiss_recommended_plugins_callback('')
+#1 /opt/lampp/htdocs/wordpress-5.7.2/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress-5.7.2/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress-5.7.2/wordpress/wp-admin/admin-ajax.php(187): do_action('wp_ajax_ti_cust...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress-5.7.2/wordpress/wp-content/themes/spawp/inc/customizer/customizer-notify/spawp-customizer-notify.php on line 203
+
